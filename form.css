@@ -1,0 +1,86 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-color: rgb(107, 33, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#heading{
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+.form-body{
+    border-radius: 14px;
+    margin-top: 44px;
+    margin-bottom: 34px;
+    border: 2px solid black;
+    padding: 150px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 50%;
+}
+.user{
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+    margin: 16px;
+}
+.user-input{
+    margin-left: 6px;
+    width: 90%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+}
+.password{
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+    margin: 16px;
+}
+.password-input{
+    margin-left: 6px;
+    width: 90%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+}
+.password-input:focus{
+    outline: none;
+  
+}
+.user-input:focus{
+    outline: none;
+}
+button{
+    background-color: rgb(54, 54, 192);
+    color: aliceblue;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(92, 92, 199);
+    color: aliceblue;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.forgot{
+    margin-right: 280px;
+}
